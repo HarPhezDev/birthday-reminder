@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(237, 37, 194);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 50px;
+
+}
+
+
+.hero{
+    padding: 10px 15px;
+    width: 400px;
+    height: 520px;
+    background-color: #fff; box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.hero header{
+    font-size: 30px;
+    margin: 10px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.profile{
+    display: flex;
+    margin: 15px;
+}
+
+.cnt{
+    margin-left: 15px;
+}
+
+.profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.cnt h1{
+    font-size: 20px;
+}
+
+ button{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    background-color: rgb(237, 37, 194);
+}
+
+@media (max-width: 909px) {
+    .hero{
+        height: 600px;
+        width: 300px;
+        
+    }
+    
+
+}
+
